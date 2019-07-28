@@ -2,7 +2,7 @@
 
 Automagically add `ESLint` support to `react+typescript` setup by adding this package.
 
-> It's suggested to have `tsconfig.json` in root folder of the project
+> It's **required** to have `tsconfig.json` in root folder of the project
 
 ## Install
 
