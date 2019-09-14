@@ -34,12 +34,15 @@ module.exports = {
     }
   },
   rules: {
-    "prettier/prettier": ["error", {
-        "singleQuote": true,
-        "printWidth": 80,
-        "trailingComma": "all",
-        "jsxBracketSameLine": true
-    }],
+    "prettier/prettier": [
+      "error",
+      {
+        singleQuote: true,
+        printWidth: 80,
+        trailingComma: "all",
+        jsxBracketSameLine: true
+      }
+    ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
