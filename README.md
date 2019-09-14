@@ -7,7 +7,7 @@ Automagically add `ESLint` support to `react+typescript` setup by adding this pa
 ## Install
 
 ```sh
-yarn add @ganapativs/eslint-config-react-ts --dev
+yarn add eslint @ganapativs/eslint-config-react-ts --dev
 ```
 
 ## Enable ESLint

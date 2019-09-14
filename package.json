@@ -1,6 +1,6 @@
 {
   "name": "@ganapativs/eslint-config-react-ts",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Base ESLint config for react+typescript setup",
   "main": "index.js",
   "repository": {
