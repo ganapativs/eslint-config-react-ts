@@ -44,7 +44,18 @@ module.exports = {
       }
     ],
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    // https://github.com/benmosher/eslint-plugin-import/issues/1558#issuecomment-563222416
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        ts: "never",
+        tsx: "never",
+        js: "never",
+        jsx: "never"
+      }
+    ]
   },
   globals: {}
 };
