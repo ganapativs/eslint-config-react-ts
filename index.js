@@ -4,7 +4,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "airbnb-base",
     "plugin:react/recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
   plugins: ["import", "prettier", "react-hooks"],
@@ -55,7 +54,11 @@ module.exports = {
         js: "never",
         jsx: "never"
       }
-    ]
+    ],
+    // note you must disable the base rule as it can report incorrect errors
+    // https://github.com/typescript-eslint/typescript-eslint/issues/2540#issuecomment-692505191
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
   },
   globals: {}
 };
